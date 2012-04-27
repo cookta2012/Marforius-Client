@@ -27,19 +27,17 @@ You need to simply copy all of the contents of the folder "COPY MY CONTENTS" and
 
 No known bugs at this time. 
 
-= Misc
-  
-Repacker.exe will return false positives on engines that don't use accurate scanning methods. 
-Please see, http://www.assembla.com/code/marforius-client/subversion/nodes?rev=8 for scans of this file. 
-The executable's PE header (among other bloat) is missing because it is packed with FSG, which results in, apparently a false positive.
 
+= Where's the repacker?
 
-= Tools
+(The repacker is what makes this 4GBs smaller on your hard drive by combining patches)
 
-A list of tools in the repo:
+Because I didn't have the sourcecode of VX's patch combiner i'm making my own. It will be combined into a "launcher" i've been making over the past few weeks.
 
-Repacker::
-   If you want to reduce how much size your client takes up, run the program in the /Repacker/ directory of the client's folder, this will take all the patches and consolidate them - no data is lost or deleted and no functionality is harmed. It will clear up about 4.10GBs of data that is useless and overwritten when the client loads it.
+When it's launched you may find it here: https://github.com/Marforius/Generic-MarforiusClient-Launcher
+
+It already has an automatic update feature and will be combined into this repository when it's decently developed.
+
 
 
 = Bugs / Feature requests
