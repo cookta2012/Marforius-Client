@@ -42,6 +42,8 @@ When it's launched you may find it here: https://github.com/Marforius/Generic-Ma
 
 It already has an automatic update feature and will be combined into this repository when it's decently developed.
 
+Note that the repacker has been readded to this repo until i'm done coding the launcher.
+
 
 
 = Bugs / Feature requests
